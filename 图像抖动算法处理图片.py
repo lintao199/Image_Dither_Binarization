@@ -17,8 +17,6 @@ bayer=np.array([[0, 48, 12, 60, 3, 51, 15, 63],
 
 
 
-img.putpixel((25,24),255)
-
 for i in range(img_height):
     for j in range(img_width):
         s=img.getpixel((j,i))
