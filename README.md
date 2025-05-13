@@ -33,13 +33,3 @@ if (image[y][x]>>2) > bayer[y&7][x&7] then 打一白点 else 打一黑点
  
 **image[y][x]表示这个点的灰度值,>>2的原因是原本的灰度是256级的，但是我们bayer矩阵能处理的是[0-63] 所以要降到64级灰度。**         
                 
-最终效果 不知道怎么传图片，反正很理想
-
-详情见这三篇文章：
-抖动算法小议1、2、3
-
-http://blog.csdn.net/coolbacon/article/details/4041988
-
-http://blog.csdn.net/coolbacon/article/details/4042054
-
-http://blog.csdn.net/coolbacon/article/details/4042122
