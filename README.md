@@ -50,9 +50,9 @@ python3 main.py /path/to/image.jpg --output /path/to/output.jpg
 ```
 
 ## 示例
-原图（demo1.jpeg，4032x3024）：
-![demo1](demo1.jpeg)
+原图（demo1.jpg）：
+![demo1](demo1.jpg)
 
-处理后（demo1_dithered.jpeg，3024x4032）：
-![demo1_dithered](demo1_dithered.jpeg)
+处理后（demo1_dithered.jpg）：
+![demo1_dithered](demo1_dithered.jpg)
                 
