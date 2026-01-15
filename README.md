@@ -32,4 +32,27 @@ if (image[y][x]>>2) > bayer[y&7][x&7] then 打一白点 else 打一黑点
  
  
 **image[y][x]表示这个点的灰度值,>>2的原因是原本的灰度是256级的，但是我们bayer矩阵能处理的是[0-63] 所以要降到64级灰度。**         
+
+## 运行方式
+安装依赖：
+```
+pip install pillow
+```
+
+运行（会弹出选择图片窗口）：
+```
+python3 main.py
+```
+
+也可以直接指定输入、输出路径：
+```
+python3 main.py /path/to/image.jpg --output /path/to/output.jpg
+```
+
+## 示例
+原图（demo1.jpeg，4032x3024）：
+![demo1](demo1.jpeg)
+
+处理后（demo1_dithered.jpeg，3024x4032）：
+![demo1_dithered](demo1_dithered.jpeg)
                 
